@@ -1,7 +1,13 @@
 // change nav depending on the height from top
 var distanceTop = function(){
     var h = $(document).scrollTop();
-    if( h > 180) {
+	// console.log('warosc:' + h);
+    if( h > 920 ) {
+		$('.nav_overlap').css('color', '#ededed');
+		$('.nav_overlap').css('backgroundColor', '#b5c374');
+		$('.nav_menu_sign').css('borderColor', '#ededed');
+		$('.nav_menu_sign').css('borderLeft', 'none');
+	} else if( h > 180) {
 		$('.nav_overlap').css('color', '#ededed');
 		$('.nav_overlap').css('backgroundColor', '#706e79');
 		$('.nav_menu_sign').css('borderColor', '#ededed');
