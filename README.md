@@ -1,6 +1,15 @@
-# fly_garage_website
+# LANDING PAGE
 
-layout for mobile and desktop for fly garage website
+This is landing page for FLY garage [Instagram](https://www.instagram.com/flygarage/), [FB](https://www.facebook.com/flyVWgarage/).
 
-- on desktop change nav colors depending on the height from top – done with jQuery and set for height 745px 
-- design and implementation: Marta Mucha-Balcerek (https://www.linkedin.com/in/marta-mucha-balcerek-99012113b/ )
+## Technologies
+
+In this project direcotry is website made with:
+
+- HTML
+- CSS
+- JavaScript
+
+Website is mobile-friendly.
+
+![Screenshot](./img/screenshot-for-readme.png)
